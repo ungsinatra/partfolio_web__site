@@ -1,0 +1,151 @@
+@font-face {
+	font-family: 'Leiko-Regular';
+	src: url('fonts/Leiko-Regular.eot');
+	src: local('☺'), url('..fonts/Leiko-Regular.woff') format('woff'), url('fonts/Leiko-Regular.ttf') format('truetype'), url('fonts/Leiko-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+*{
+
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+   
+    margin: 0;
+}
+.cantainer{
+    width: 100%;
+    min-width: 1440px;
+    min-height:1024px;
+}
+/*<!--HEADER-INTRO-->*/
+
+.header{
+    
+  border: 5px solid black;
+  min-height: 1024px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color:white ;
+  align-items: center;
+  justify-content: center; 
+   
+}
+
+.header_title{
+    
+    
+    font-family: 'Leiko-Regular';
+    position: absolute;
+    width: 278px;
+    height: 245px;
+    
+    color: black;
+    font-size: 200px;
+}
+/*<!--CONTENT-->*/
+.content{
+    border: 5px solid black;
+    min-height: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:white ;
+    align-items: center;
+    
+}
+
+
+
+
+.content_title{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-family: 'Leiko-Regular';
+    color: black;
+    font-size: 96px;
+}
+.work_sample{
+    
+    width: 1021px;
+    height: 611px;
+    outline:4px solid black;
+    
+}
+
+
+
+/*<!--contact-->*/
+
+.contact{
+    border: 5px solid black;
+    min-height: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact_title{
+    font-size: 96px;
+    font-family: 'Leiko-Regular';
+    margin-top: 63px;
+    margin-bottom: 83px;
+}
+
+.email{
+    
+    font-family: 'Leiko-Regular';
+    font-size: 24px;
+    width: 600px;
+    height: 100px;
+    margin-bottom: 15px;
+    /* outline: 4px solid black; */
+}
+.email, textarea {
+    outline: none;
+    border: none;
+    border: solid 4px black;
+}
+::placeholder{
+    color: black;
+    padding-left: 20px;
+}
+
+.idea{
+    font-family: 'Leiko-Regular';
+    font-size: 24px;
+    width: 600px;
+    height: 400px;  
+    /* outline: 4px solid black; */
+    
+}
+.idea, textarea {
+    outline: none;
+    border: none;
+    border: solid 4px black;
+}
+
+.form_buttom{
+display: flex;
+justify-content: center;
+
+}
+.button{
+    font-size: 36px;
+    font-family: 'Leiko-Regular';
+    background-color: black;
+    border:none;
+    color: white;
+    outline: none;
+    width: 220px;
+    height: 70px;  
+    margin-top: 30px; 
+}
